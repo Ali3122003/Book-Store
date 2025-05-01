@@ -66,6 +66,10 @@ STRIPE_SECRET_KEY=""
 EMAIL_ADDRESS=""
 PASSWORD=""
 ```
+```
+MONGO_INITDB_ROOT_USERNAME=
+MONGO_INITDB_ROOT_PASSWORD=
+```
 ### 3️⃣ To Run Project
 ```
 docker-compose up -d
