@@ -47,8 +47,8 @@ The **Book Store** is a full-featured **MERN stack** web application that allows
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone 
-cd book-store-copy
+git clone https://github.com/Ali3122003/Book-Store.git
+cd Book-Store
 ```
 
 
@@ -65,4 +65,12 @@ NODE_ENV=""
 STRIPE_SECRET_KEY=""
 EMAIL_ADDRESS=""
 PASSWORD=""
+```
+### 3️⃣ To Run Project
+```
+docker-compose up -d
+```
+### 4️⃣ To Stop Project
+```
+docker-compose down
 ```
